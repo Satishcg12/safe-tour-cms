@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "local_laws",
+  "info": {
+    "singularName": "local-law",
+    "pluralName": "local-laws",
+    "displayName": "local law"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desctiption": {
+      "type": "text"
+    }
+  }
+}

@@ -1,21 +1,21 @@
 {
   "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "scams",
   "info": {
-    "singularName": "test",
-    "pluralName": "tests",
-    "displayName": "test"
+    "singularName": "scam",
+    "pluralName": "scams",
+    "displayName": "scam"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "age": {
-      "type": "integer"
+    "desctiption": {
+      "type": "text"
     }
   }
 }

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * test service
+ * safe-guide service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::test.test');
+module.exports = createCoreService('api::safe-guide.safe-guide');

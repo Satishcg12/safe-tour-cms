@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emergency_contacts",
+  "info": {
+    "singularName": "emergency-contact",
+    "pluralName": "emergency-contacts",
+    "displayName": "emergency contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    }
+  }
+}
